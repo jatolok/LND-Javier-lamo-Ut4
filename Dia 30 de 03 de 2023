@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c4eb57b10e.js" crossorigin="anonymous"></script>
+            <link href="fontawesome-free-5.3.1-web/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="https://kit.fontawesome.com/c4eb57b10e.css" crossorigin="anonymous">
+    
+    <title>Kenshi Survival guide</title>
+    <style>
+      body{
+        font-family:  "Ink Free";
+        background-color: rgb(200, 182, 166);
+        color: whitesmoke;
+        text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;;
+      }
+
+      #logo {
+        width: 10%;
+        
+      }
+      header {
+        background-color: rgb(141, 123, 104);
+        text-shadow: 1cm;
+        
+      }
+
+      .navbar-brand {
+        color: white;
+
+      }
+      .nav-link {
+        color: white
+
+      }
+      /************************* Carrousel */
+
+
+#Fotos {
+  height: 500px;
+  width: 800px; 
+  backdrop-filter: blur(10px);
+}
+
+
+#testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+
+}
+
+#carrusel {
+  background-image: url('Dunes.jpg');
+  
+}
+
+
+
+#TextCarro {
+
+  
+  size: 2em;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+  /************************ Cards */
+
+  #cards {
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-right:  100px;
+  text-align: center;
+  background-color: rgb(141, 123, 104);
+  
+}
+#cardtext {
+  padding: 3% 2%;
+  color: #000;
+  text-shadow: none;
+}
+
+.card {
+
+    background-color: rgb(241, 222, 201);
+}
+
+
+
+  /************************* Weapons */
+
+  #separadorW {
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+  #features {
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    
+    z-index: 1;
+  }
+
+
+  #myvideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        filter: blur(5px)
+}
+
+
+
+#listafoto {
+  
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+
+#Wtext {
+
+  padding-bottom: 10px;
+
+}
+
+
+/***************************** Footer */  
+
+.social {
+    padding-bottom: 5%;
+  }
+
+  #footer {
+    background-color: rgb(141, 123, 104);
+    text-align: center;
+    padding: 100px 15% 20%;
+    
+  }
+
+  .spanSpace {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .social {
+    padding-bottom: 5%;
+  }
+
+
+  #myvideo{
+
+    backdrop-filter: blur(10px);
+  }
+    </style>
+  </head>
+  <body>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+
+    <!--<posible fuente sacado the google fonts "Waiting for the Sunrise"/"Ma Shan Zheng"/"Megrim"
+
+    Listado de productos/servicios 
+    1.Experiences of Kenshi
+    2.Wildlife Pictures
+
+    Carrousel
+    Bonedog my beloved
+
+    Color Palette
+    https://colorhunt.co/palette/8d7b68a4907cc8b6a6f1dec9
+    
+
+  -->
+  <header id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <!-- Nombre de la aplicación que contiene un enlace a la página principal -->
+        <a class="navbar-brand">  <img src="Logo_Skenshi.webp" id="logo"/>Kenshi Survival Guide</a>
+        <!-- Botón tipo hamburuesa que se muestra cuando se visualiza la web desde un dispositivo móvil -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuhamburguesa"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Menú principal -->
+        <div id="menuhamburguesa" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li style="padding: 3px;"class="nav-item"><a style="padding: 3px;"class="nav-link" href="#">People <i class="fa-solid fa-person"></i></a></li>
+            <li style="padding: 3px;"class="nav-item"><a style="padding: 3px;"class="nav-link" href="#">Wildlife <i class="fa-solid fa-paw"></i></i></a></li>
+            <li style="padding: 3px;"class="nav-item"><a style="padding: 3px;"class="nav-link" href="#">Factions <i class="fa-solid fa-flag"></i></a></li>
+            <li style="padding: 3px;"class="nav-item"><a style="padding: 3px;"class="nav-link" href="#">Weather <i class="fa-solid fa-cloud-bolt"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Imagen y botones de descarga -->
+      
+    </div>
+  </header>
+  <!--carrousel-->
+
+  <section id="carrusel">
+  <div id="container_center">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <section id="testimonials">
+            <h2 id="quote1">"Scorching Wind"</h2>
+              <!-- IMAGEN -->
+            <p><img src="FotoK3.jpg" id="Fotos"></p>
+            <h5 id="TextCarro">The wind carries with it the malice of the desert, scorching hot and blinding with it's dust. 
+              Yet one must brave the elements and keep moving forward onto safety or death.
+
+            </h5>
+            </section>
+        </div>
+        <div class="carousel-item active carousel-item-left" >
+          <section id="testimonials">
+            <h2 id="quote1">"Shadow of the Giants"</h2>
+              <!-- IMAGEN -->
+            <p><img src="FotoK1.jpg" id="Fotos"></p>
+            <h5 id="TextCarro">The Brothers of the Moon of Kenshi, visible most of the day, yet take over the night sky once the Sun sets down. 
+              Their names lost to time, an everpresent reminder of our forgotten past.</h5>
+            </section>
+        </div>
+        <div class="carousel-item carousel-item-next carousel-item-left" >
+          <section id="testimonials">
+            <h2 id="quote1">"Fishing at the ends of the World"</h2>
+              <!-- IMAGEN -->
+            <p><img src="FotoK2.jpg" id="Fotos"></p>
+            <h5 id="TextCarro">A Skeleton fishes in the coast, facing the endless sea, the water polluted with oil and chemicals.
+              Perhaps one day his rod will catch the remains of another from his kind
+            </h5>
+            </section>
+         </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+
+
+  </section>
+ 
+  <section id="cards">
+    <h2 style="text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;;">The World of Kenshi</h2>  
+    <div class="row">
+      <div id="cardtext" class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-body">
+            <p>Kenshi is an interactive experience that takes place on a post-post-apocaliptic setting, where things went down so bad we are currently on the dark ages of the dark ages. It's a brutal world, morality has become obsolete, opportunistic pracmatism has taken its place. You will need to adapt to survive, food security is a luxury the majority of the population can't afford, even civilization is a rare sight, supplanted instead by endless desert, laberynthic mountain ranges, swamps, horrors of the old world and monsters of the new.</p>
+            <a type="button" role="button" class="btn btn-lg btn-outline-dark" href="https://www.youtube.com/watch?v=wXo24imR_54">Want to Know More?</a>
+          </div>
+        </div>
+      </div>   
+      <div id="cardtext" class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              The Factions
+            </div>
+            <div class="card-body">
+              <p>To give you an idea of the kind of residents to expect, one of the factions is a theocratic state that enslaves no humans in order to cleanse them of "sin", treats women as second class citizens and considers anything robtic, including prosthetics arms as heresy that mus be purged, adn they are on the top 3 of nicest factions you can encounter. Your other mayor options is a slave fueled empire ruled by decadent nobles that even hunt their own citizens for fun or a Kingdom of warmongers that don't even produce thier own food they just steal it</p>
+              <a type="button" role="button" class="btn btn-lg btn-outline-dark" href="https://www.youtube.com/watch?v=wXo24imR_54">Want to Know More?</a>
+            </div>
+          </div>
+        </div>
+        <div id="cardtext" class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              The Wildlife
+            </div>
+            <div class="card-body">
+              <p>The ecosystem of this land is inhabited by different kinds of species, yet most have asapted to specific bioms of the world, yet a common trend is most animals are larger than humans, from giants crbas to skin spiders, River raptors that eat crops. Yet the most feared is the Beak Thing a mix of a giraffe and a turtle their main danger comes in its insane speed, reaching up to 60mph they are tha fastest living being in Kenshi, as they also run in packs, both running away or standing your ground will lead to death</p>
+              <a type="button" role="button" class="btn btn-lg btn-outline-dark" href="https://www.youtube.com/watch?v=wXo24imR_54">Want to Know More?</a>
+            </div>
+          </div>
+        </div>        
+    </div> 
+  
+  </section> 
+   <!-- Society has degraded and humanity is not the only apex species fighting for dominance over this wasteland-->
+  
+
+  <h1 id="separadorW">Weapons</h1>
+
+
+  <section id="features">
+    <video id="myvideo" src="screen-capture (3).webm#t=10,100" autoplay="true" muted="true" loop="true"></video>   
+    <div class="row">
+        
+        
+      <div class="feature-box col-lg-4">
+        <h4>Crossbows</h4>
+        <img class="img-fluid" src="LND-Crossbow.jpeg" id="listafoto">
+        <p id="Wtext">The Go-to for ranged combat in the World of kenshi, they are available to even the lowliest of bandits, yet at the same time see use by even Nobles from the United Cities </p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <h4>Hackers</h4>
+        <video src="screen-capture (4).webm" muted="true" poster="LND-Hackers.jpg" controls="true" id="listafoto"></video>
+        <p id="Wtext">Swords that lack a sharp end, they more than make up for it with devastating swings that cleave thourgh flesh with barely any effort, not surprising then, that its the signature weapon of Cannibals</p>
+      </div >
+      <div class="feature-box col-lg-4">
+        <h4>Heavy Weapons</h4>
+        <video src="screen-capture (2).webm" muted="true" poster="LND-Heavy_weapons.jpeg" controls="true" id="listafoto"></video>
+        <p id="Wtext">Normally reffered as giant lumps of Iron, they as well as their main owners, The Shek, are not to be underestimated. While crude, its simple design allows for the mightiest of blows, cutting bodies in half with a single strike</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h4>Katanas</h4>
+        <video src="screen-capture (5).webm" muted="true" poster="LND-Katana.jpeg" controls="true" id="listafoto"></video>
+        <p id="Wtext">This simple swords are the prefered weapon, for bandits, ninjas, freedom fighters and Wanderers. It's low weight allows the user to realize many strikes in quick succesion, slowly cutting up their opponent</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h4>Polearms</h4>
+        <video src="screen-capture (1).webm" muted="true" poster="LND-Polearm.jpeg" controls="true" id="listafoto"></video>
+        <p id="Wtext">Most commonly used by city guard, its strenghts are truly shown when used in numbers, with formations of them being able to block any path from any number of enemies, even the formidable beasts of the desert can be overcome by them</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h4>Sabres</h4>
+        <video src="screen-capture (3).webm" muted="true" poster="LND-Sabres.jpeg" controls="true" id="listafoto"></video>
+        <p id="Wtext">A more surgical weapon, its uncanny form allows the wielder to parry most strikes and deliver devastating counterattacks, thus it requires patience and steel nerves to master. Is told the mythicsl smith Meitou was specially fond of this type of instrument of death</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer id="footer">
+    <div class="social">
+      <span class="spanSpace">
+        <a href="www.twitter.com"><i class="fab btn-outline-light fa-twitter fa-2x" style="color:white;"></i></a>
+      </span>
+      <span class="spanSpace">
+        <a href="www.facebook.com"><i class="fab btn-outline-light fa-facebook-f fa-2x" style="color:white;"></i></a>
+      </span>
+      <span class="spanSpace">
+        <a href="www.instagram.com"><i class="fab btn-outline-light fa-instagram fa-2x" style="color:white;"></i></a>
+      </span>
+      <span class="spanSpace">
+        <a href="mailto:sergioramos@ieselrincon.es" style="color:white;"><i class="fas btn-outline-light fa-envelope fa-2x" style="color:white;"></i></a>
+      </span>
+    </div>
+    <p>© Copyright 2023 MiAPP</p>
+    <p>Made by <u>1º ASIR</u></p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</body>
+</html>  
