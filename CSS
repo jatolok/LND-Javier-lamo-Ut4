@@ -1,0 +1,134 @@
+      body{
+        font-family:  "Ink Free";
+        background-color: rgb(200, 182, 166);
+        color: whitesmoke;
+        text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;;
+      }
+
+      #logo {
+        width: 10%;
+        
+      }
+      header {
+        background-color: rgb(141, 123, 104);
+        text-shadow: 1cm;
+        
+      }
+
+      .navbar-brand {
+        color: white;
+
+      }
+      .nav-link {
+        color: white
+
+      }
+      /************************* Carrousel */
+
+
+#Fotos {
+  height: 500px;
+  width: 800px; 
+  backdrop-filter: blur(10px);
+}
+
+
+#testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+
+}
+
+#carrusel {
+  background-image: url('Dunes.jpg');
+  
+}
+
+
+
+#TextCarro {
+
+  
+  size: 2em;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+  /************************ Cards */
+
+  #cards {
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-right:  100px;
+  text-align: center;
+  background-color: rgb(141, 123, 104);
+  
+}
+#cardtext {
+  padding: 3% 2%;
+  color: #000;
+  text-shadow: none;
+}
+
+.card {
+
+    background-color: rgb(241, 222, 201);
+}
+
+
+
+  /************************* Weapons */
+
+  #separadorW {
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+  #features {
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    
+    z-index: 1;
+  }
+
+
+  #myvideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        filter: blur(5px)
+}
+
+
+
+#listafoto {
+  
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+
+#Wtext {
+
+  padding-bottom: 10px;
+
+}
+
+
+/***************************** Footer */  
+
+  #footer {
+    background-color: rgb(141, 123, 104);
+    text-align: center;
+    padding: 100px 15% 20%;
+  }
